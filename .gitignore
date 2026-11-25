@@ -1,0 +1,43 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+data/raw/
+data/processed/
+
+# Model checkpoints
+checkpoints/*.pth
+checkpoints/*.pt
+
+# Logs and outputs
+logs/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env.*
+!.env.example
